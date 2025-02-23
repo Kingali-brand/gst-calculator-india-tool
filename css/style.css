@@ -1,0 +1,75 @@
+.gst-calculator-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.gst-calculator-container h3 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.gst-input-group {
+    margin-bottom: 20px;
+}
+
+.gst-input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #34495e;
+    font-weight: 600;
+}
+
+.gst-input-group input, .gst-input-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.gst-button {
+    background: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.gst-button:hover {
+    background: #2980b9;
+}
+
+.gst-results {
+    margin-top: 25px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    display: none;
+}
+
+.gst-result-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding: 10px;
+    background: #f1f2f6;
+    border-radius: 5px;
+}
+
+.gst-result-item span:first-child {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.gst-result-item span:last-child {
+    color: #27ae60;
+    font-weight: bold;
+}
